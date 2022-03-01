@@ -1,0 +1,48 @@
+body {
+    color: #484848;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h3 {
+    color: #7c8587;
+    font-weight: 800;
+}
+h2 {
+    color: #efefef;
+    font-weight: 700;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+}
+h3 {
+    border-bottom:5px solid #7c8587;
+}
+h1,h2 {
+    text-align: left;
+}
+header {
+    background-image: url(pozadi.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 30px;
+}
+.informace {
+    background-color: #efefef;
+    display: inline-block;
+}
+.obsah {
+    float: right;
+}
+footer {
+    text-align: center;
+    clear: both;
+    font-weight: bold;
+}
+.fotome {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+    margin: 0 30px 30px 0;
+}
