@@ -22,6 +22,10 @@ header {
     background-size: cover;
     padding: 80px 30px;
 }
+ul {
+    padding: 0%;
+    margin: 2%;
+}
 .menu li {
     line-height: 350px;
     font-weight:bold;
