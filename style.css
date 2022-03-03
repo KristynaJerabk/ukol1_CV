@@ -1,43 +1,61 @@
-body {
-    color: #484848;
-    font-size: 20px;
-    line-height: 1.5;
-    font-weight: 300;
-    font-family: 'Montserrat', sans-serif;
-}
-h1,h3 {
+h1{
     color: #7c8587;
     font-weight: 800;
+    font-size: 50px;
+    text-align: left;
 }
 h2 {
     color: #efefef;
     font-weight: 700;
+    font-size: 30px;
     text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+    text-align: center;
 }
-h3 {
-    border-bottom:5px solid #7c8587;
-}
-h1,h2 {
-    text-align: left;
+h4 {
+    font-weight: lighter;
+    line-height: 1;
 }
 header {
-    background-image: url(pozadi.png);
+    background-image: url(images/pozadi.png);
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 150px 30px;
+    padding: 80px 30px;
 }
-.informace {
-    background-color: #efefef;
-    display: inline-block;
-}
-.obsah {
-    float: right;
-}
-footer {
+.menu li {
+    line-height: 350px;
+    font-weight:bold;
+    font-size: 30px;
+    list-style-type: none;
     text-align: center;
-    clear: both;
-    font-weight: bold;
+    display: list-item;
+}
+a {
+    text-decoration: none;
+    color: #7c8587 
+}
+a:hover,
+a:focus {
+    color: #ff66c4;
+}
+.aboutme {
+    margin-left: 300px;
+}
+.aboutme li{
+    margin-left: 300px;
+}
+.kontakt li{
+    display: list-item;
+    list-style-type: none;
+    color: #7c8587;
+    margin-left: 220px;
+}
+body {
+    color: #484848;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
 }
 .fotome {
     width: 200px;
@@ -45,4 +63,7 @@ footer {
     border-radius: 50%;
     float: left;
     margin: 0 30px 30px 0;
+}
+footer {
+    text-align: center;
 }
